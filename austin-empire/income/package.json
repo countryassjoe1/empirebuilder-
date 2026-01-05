@@ -7,7 +7,7 @@
     "start": "node api/index.js",
     "dev": "nodemon api/index.js",
     "lint": "npx eslint . --ext .js",
-    "test": "node test/generate.test.js"
+    "test": "node test/generate.test.js && node test/stripe.test.js"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
@@ -16,10 +16,13 @@
     "js-yaml": "^4.1.0",
     "jsonwebtoken": "^9.0.0",
     "pdfkit": "^0.13.0",
-    "winston": "^3.9.0"
+    "winston": "^3.9.0",
+    "stripe": "^12.13.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1",
-    "eslint": "^8.40.0"
+    "eslint": "^8.40.0",
+    "sinon": "^15.2.0",
+    "proxyquire": "^2.1.3"
   }
 }

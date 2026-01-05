@@ -24,3 +24,18 @@ jobs:
 
       - name: Run tests
         run: npm test --if-present
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && secrets.RENDER_API_KEY != ''
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy to Render (Docker)
+        env:
+          RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
+        run: |
+          echo "Render deploy isn't automated here; set up a service in Render and deploy via their dashboard or use their API with RENDER_API_KEY."
+
