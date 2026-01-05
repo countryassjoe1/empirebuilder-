@@ -19,12 +19,12 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: income
+        working-directory: austin-empire/income
 
       - name: Run tests
         run: npm test
-        working-directory: income
+        working-directory: austin-empire/income
 
       - name: Build Docker image
         run: docker build -t income-service:latest .
-        working-directory: income
+        working-directory: austin-empire/income

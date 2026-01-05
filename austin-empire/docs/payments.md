@@ -19,3 +19,11 @@ Webhooks:
 
 Payouts:
 - Stripe pays out to the bank account configured in your Stripe dashboard. For marketplace scenarios, consider using Stripe Connect.
+
+Crypto donations (optional):
+- You can accept crypto donations directly. The project owner provided an Ethereum address: `0x0cf748F1e2bD0db313463e2D5AFF8F28AC833c3b`.
+- A simple donation page is available at `/donate` which links to the address on Etherscan.
+
+Notes:
+- This project does not custody funds — ensure you control the private key for the address you publish.
+- For on‑chain payments, consider a processor (Coinbase Commerce, Ramp, or a custodial service) if you need fiat conversion and automated payouts.

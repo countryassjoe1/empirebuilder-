@@ -11,6 +11,10 @@ app.use(logger);
 // Mount Stripe routes
 app.use('/stripe', stripeRouter);
 
+// Donation page (simple ETH address)
+const donateRouter = require('./donate');
+app.use('/donate', donateRouter);
+
 app.post('/generate/business-plan', auth, async (req, res) => {
   try {
     const pdfBuffer = await generateBusinessPlan(req.body);
