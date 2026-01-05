@@ -1,0 +1,30 @@
+austin‑empire/
+├── .github/
+│   └── workflows/
+│       └── build.yml           # CI/CD for static site
+├── assets/
+│   ├── logo/
+│   │   └── logo.svg
+│   ├── avatar/
+│   │   └── avatar.svg
+│   └── ui/
+│       └── styles.css          # global CSS variables
+├── docs/
+│   ├── public‑codex.json      # sanitized Codex
+│   ├── overview.md            # Empire Overview page
+│   ├── brand‑guidelines.md    # color, logo, voice
+│   ├── build‑log.md           # audit trail
+│   └── images/                # any graphics
+├── src/
+│   ├── digital/
+│   ├── physical/
+│   ├── money/
+│   ├── protocol/
+│   └── future/
+├── scripts/
+│   ├── append-log.sh          # CLI
+│   └── sanitize‑codex.py      # optional helper
+├── .gitignore
+├── README.md
+└── package.json               # dev‑tools, eslint
+
