@@ -1,0 +1,10 @@
+title: "Business Plan"
+sections:
+  - title: "Executive Summary"
+    content: "Brief overview of {company_name}"
+  - title: "Market Analysis"
+    content: "Target audience: {target_audience}"
+  - title: "Revenue Model"
+    content: "Projected monthly revenue: {monthly_revenue}"
+  - title: "Milestones"
+    content: "Phase 1: {phase1_date}"

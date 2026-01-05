@@ -1,0 +1,13 @@
+:root {
+  --color-bg: #0f172a;
+  --color-fg: #e6eef8;
+  --color-accent: #7c3aed;
+}
+
+html, body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.container { max-width: 980px; margin: 0 auto; padding: 24px; }
