@@ -1,0 +1,32 @@
+<p align="center">
+  <img src="assets/codex-logo.png" width="180" alt="Codex Logo"/>
+</p>
+
+# Empirebuilder Codex Architecture
+
+> **“A living blueprint that turns systems into fortunes – the next decade is built on architecture, not hype.”**
+
+## What’s Included
+
+- Modular Node.js API (templates → PDF, JWT auth, logging)
+- Dockerfile & CI/CD (GitHub Actions)
+- Immutable build log for every decision
+- Pre-built templates (business plan, contract negotiation)
+- Assets (branded logo)
+- Ready to deploy or sell as a premium starter kit
+
+## Quickstart
+
+```bash
+# Clone and enter
+git clone <YOUR-REPO-URL> empirebuilder-
+cd empirebuilder-/income
+
+# Install & run
+npm install
+cp .env.example .env  # (set your JWT secret)
+node api/index.js
+
+# Or run Docker (from project root)
+docker build -t codex-income ./income
+docker run -p 3000:3000 codex-income
