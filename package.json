@@ -1,0 +1,10 @@
+{
+  "name": "austin-empire",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "echo 'No linter configured'",
+    "test": "echo 'No tests configured'"
+  },
+  "devDependencies": {}
+}

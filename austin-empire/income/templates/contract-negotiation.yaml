@@ -1,0 +1,10 @@
+title: "Contract Negotiation Template"
+sections:
+  - title: "Parties"
+    content: "{party_a} ↔ {party_b}"
+  - title: "Scope"
+    content: "Deliverables: {deliverables}"
+  - title: "Payment Terms"
+    content: "Rate: {rate} per hour, payable monthly."
+  - title: "Termination"
+    content: "Notice period: {notice_hours} hours."
